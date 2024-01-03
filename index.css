@@ -1,0 +1,175 @@
+.main_contenr{
+    background-color: white;
+    height: 70vh;
+    width: 100%;
+}
+.media_Quriye{
+    padding: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first_card{
+    display: flex;
+    flex-direction: row;
+}
+.font-style{
+    font-family: "Kaushan Script", cursive;
+    color: black;
+    font-size: 30px;
+}
+.heading{
+    font-size: 20px;
+    padding: 40px;
+    color: #47484a;
+}
+.paragarph{
+    color: #9d9fa3;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: 'Comic Sans MS',cursive;
+    line-break: auto;
+}
+.paragarph:hover{
+    color:black;
+}
+.about_heading{
+    font-size: 30px;
+    padding: 40px;
+    color: rgb(22, 21, 21);
+} 
+.search_options{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+#options{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', cursive;
+    color: #9d9fa3;
+    
+}
+#options:hover{
+    color: black;
+}
+.search_options a{
+    text-decoration: none;
+}
+.font_icon{
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.follow_icon{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    margin-top: 0px;
+}
+#options_1{
+    font-size: 18px;
+    font-family: 'Comic Sans MS', cursive;
+    color: #9d9fa3;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#options_1:hover{
+    color: black;
+}
+form input{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 8px 3px #b4b3b3;
+    border-width: 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 4vh;
+    width: 20vw;
+}
+form textarea {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-width: 0px;
+    box-shadow: 5px 5px 8px 3px #b4b3b3;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+form button{
+    height: 40px;
+    width: 70px;
+    border-width: 0px;
+    color: black;
+    box-shadow: 5px 5px 8px 3px #b4b3b3;
+    cursor: pointer;
+    align-self: flex-end;
+    background-color: white;
+    border-radius: 10px;
+}
+form button:hover{
+    background-color: rgb(4, 183, 4);
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:768px) {
+    .main_contenr{
+        background-color: white;
+        height: 100%;
+        width: 100%;
+    }
+    .media_Quriye{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .heading{
+        font-size: 15px;
+    }
+    .paragarph{
+        line-break: auto;
+    }
+    form input{
+        width: 100%;
+    }
+    form textarea {
+        width: 100%;
+    }
+    .about_heading{
+        margin-left: 30px;
+    }
+    .search_options{
+        margin-left: 40px;
+    }
+}
+/*@media screen and (min-width: 1194px) {
+    .media_Quriye{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main_contenr{
+        background-color: lightblue;
+        height: auto;
+        width: 100%;
+    }
+}*/
+
+.horzental_line{
+    width: auto;
+    color: black;
+    border-width: 2px;
+}
+.TechGroup{
+    text-align: center;
+    color: #9d9fa3;
+    font-family: 'Comic Sans MS',cursive;
+    margin-top: 0px;
+    font-size: 13px;
+}
